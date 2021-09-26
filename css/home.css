@@ -1,0 +1,43 @@
+.country-card-container{
+    background-color: #432C85;
+    border-radius: 3px;
+}
+
+.font-celcius{
+    font-weight: bold;
+    font-size: 5rem;
+}
+.pad-3{
+    padding-left: 53px;
+}
+.txt-col-titles{
+ color:#FFFFFF;
+}
+.txt-col{
+  color: #E0F0FF;
+  font-weight: bold;
+}
+
+.btm-slider{
+ height: 8px;
+ border: 4px rgb(247, 247, 247) solid;
+ margin: 0 220px 0 220px;
+ border-radius: 3px;
+}
+
+
+
+img{
+    height: 100px;
+    
+}
+
+table{
+    border: 1px solid;
+}
+tbody{
+    font-family: Roboto;
+    font-weight: regular;
+    font-size: 1.3rem;
+
+}
