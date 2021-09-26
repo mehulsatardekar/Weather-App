@@ -2,7 +2,9 @@
     background-color: #432C85;
     border-radius: 3px;
 }
-
+.mr3{
+    margin-left:9px ;
+}
 .font-celcius{
     font-weight: bold;
     font-size: 5rem;
@@ -40,4 +42,23 @@ tbody{
     font-weight: regular;
     font-size: 1.3rem;
 
+}
+
+
+/* skeleton css */
+
+.skeleton{
+    opacity: 0.7;
+    animation: skeleton-loading 1s linear infinite alternate;
+}
+
+@keyframes skeleton-loading{
+    0%{
+      background-color: hsl(200, 16%, 96%);
+    }
+
+    100%{
+        background-color: hsl(203, 11%, 76%);
+
+    }
 }
