@@ -94,13 +94,13 @@ function getWeatherOfCountry(userInputCity){
         
                 }
                 details+= `<div class="row text-center">
-                <div class="col-6 ">
+                <div class="col-lg-6 col-md-6 col-sm-12">
                      <img src="${data.current.condition.icon}" alt="${data.current.condition.text}"/>
                     <h1 class=" font-celcius txt-col-titles">${data.current.temp_c}<span>&#8451;</span>
                     </h1>
                     <span class="txt-col">${data.current.condition.text}</span>
                     
-                    <div class="row  mt-3">
+                    <div class="row  mt-3 ">
                         <div class="col">
                             <div class="col">
                                 <h6 class="txt-col">HUMIDITY</h6>
@@ -150,11 +150,11 @@ function getWeatherOfCountry(userInputCity){
                     </div>
         
                 </div>
-                <div class="col-6">
+                <div class="col-lg-6 col-md-6 col-sm-12">
                  <h1 class="font-celcius txt-col-titles">${data.location.name}</h1>
-                  <div class="btm-slider"></div>
+                  <div class="btm-slider hide"></div>
         
-                  <div class="row mt-5">
+                  <div class="row mt-5 hide ">
                       <div class="col">
                          <h6 class="txt-col">City : <span>${data.location.name}</span></h6>
                          <h6 class="txt-col">Region : <span>${data.location.region}</span></h6>
